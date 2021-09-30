@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* footer  */
+ footer {
+     height: 70px;
+     background-color: gray;
+     color: white;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .contenitori {
+     display: flex;
+     align-items: center;
+ }
+
+ .tasto-icona {
+     text-align: center;
+     margin: 0 15px;
+ }
+
+
+ .icona {
+     font-size: 30px;
+ }
+
+ .tendina i {
+    font-size: 25px;
+    position: relative;
+    right: 10px;
+ }
+
+ .fa-upload {
+     color: greenyellow;
+ }
+
+ #end {
+     color: red;
+     background-color: rgb(71, 71, 71);
+     height: 70px;
+     line-height: 70px;
+     padding: 0 12px;
+}
